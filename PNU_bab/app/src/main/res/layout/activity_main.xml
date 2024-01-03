@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="12pt"
+            android:fontFamily="@font/maple"
+            android:text="PNU 밥메추" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/korea_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:text="한식/탕"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/china_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:text="중식"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/japan_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="20dp"
+                android:text="일식"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/west_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:text="양식"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/streetFood_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:text="분식"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fastfood_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="20dp"
+                android:text="패스트푸드"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/meetchicken_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:text="고기"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dessert_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:text="디저트"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/etc_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="20dp"
+                android:text="기타"
+                android:fontFamily="@font/maple"
+                android:background="@drawable/btn_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/maple"
+                android:text="모두 선택" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ran_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:text="시작"
+            android:textColor="@color/white"
+            android:fontFamily="@font/maple"
+            android:background="@drawable/btn_ran" />
+    </LinearLayout>
+</LinearLayout>
